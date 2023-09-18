@@ -24,7 +24,7 @@ const Header = () => {
   }, []);
 
   return (
-    <nav className={`bg-white shadow-md py-5 text-black p-4 w-full ${scrollY > 100 && 'fixed'}`}>
+    <nav className={`bg-white shadow-md py-5 text-black p-4 w-full ${scrollY > 100 && 'fixed z-50'}`}>
       <div className="container mx-auto flex justify-between items-center">
         <div className="text-2xl lg:text-4xl md:text-3xl sm:text-xl font-semibold">Property Hunter</div>
         <div className="hidden md:flex space-x-4">
