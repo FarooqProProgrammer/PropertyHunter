@@ -3,7 +3,7 @@ import { TitleFont } from '../../utils'
 
 export default function Partners() {
     return (
-        <div className="w-full py-2 mb-4 flex flex-col justify-start items-start px-10">
+        <div className="w-full py-24 mb-4 flex flex-col justify-start items-start px-10">
             <h1 className={`${TitleFont} capitalize font-bold    mb-4  text-gray-900`}>
             — Our partners
             </h1>

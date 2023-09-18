@@ -4,7 +4,7 @@ import { TitleFont } from '../../utils'
 
 export default function Properties() {
     return (
-        <div className="w-full py-2 flex flex-col justify-start items-start px-10">
+        <div id='properties' className="w-full py-24 flex flex-col justify-start items-start px-10">
             <h1 className={`${TitleFont} title-font font-bold   mb-4  text-gray-900`}>
                 — Home For Sale
             </h1>

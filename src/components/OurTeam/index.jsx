@@ -13,19 +13,19 @@ const OurTeam = () => {
         {
             name: 'Jane Smith',
             role: 'Designer',
-            imageSrc: 'https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60', // Replace with your image URL
+            imageSrc: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHVzZXJzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60', // Replace with your image URL
         },
         {
             name: 'Bob Johnson',
             role: 'Developer',
-            imageSrc: 'https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60', // Replace with your image URL
+            imageSrc: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHVzZXJzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60', // Replace with your image URL
         },
     ];
 
     return (
-        <section className="bg-[#262626] py-10 px-10">
+        <section id='agents' className=" py-24 px-10">
             <div className="container mx-auto text-start">
-                <h2 className={`${TitleFont} text-3xl text-white font-semibold mb-6`}>— Meet Our Team</h2>
+                <h2 className={`${TitleFont} text-3xl text-[#262626] font-semibold mb-6`}>— Our Perfect Agent</h2>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                     {teamMembers.map((member, index) => (
                         <div key={index} className="bg-white p-4 shadow-md rounded-lg">

@@ -26,7 +26,7 @@ export default function Hero() {
                     <img
                         className="object-cover object-center  h-full rounded-bl-[50px]"
                         alt="hero"
-                        src="./assets/Hero/Hero.jpg"
+                        src="https://images.unsplash.com/photo-1602941525421-8f8b81d3edbb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fFByb3BlcnR5fGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
                     />
                 </div>
             </div>
