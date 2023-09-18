@@ -17,7 +17,7 @@ export default function Properties() {
             <div className="w-full py-3 grid lg:grid-cols-4 md:grid-cols-4 sm:grid-cols-1 place-items-center gap-2">
                 {
                     PropertiesData?.map((item)=>{return(
-                        <div className="w-full h-[430px]  shadow-md flex flex-col gap-2">
+                        <div className="w-full h-auto py-2 space-y-2  shadow-md flex flex-col gap-2">
                             <img
                                 className="rounded-bl-[50px]"
                                 src={item.img}
