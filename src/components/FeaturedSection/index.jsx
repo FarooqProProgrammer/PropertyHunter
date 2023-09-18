@@ -6,7 +6,7 @@ import { AiOutlineSearch } from 'react-icons/ai';
 
 const FeaturedSection = () => {
     return (
-        <section className="relative bg-gray-100 py-16 px-2">
+        <section className="relative  py-16 px-2">
             <div className="container mx-auto ">
                 <h2 className={`${TitleFont}  font-semibold mb-[40px]`}>—Featured Services</h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">

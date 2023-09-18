@@ -19,10 +19,10 @@ export default function Hero() {
                             className="flex-[2] outline-none px-4 "
                             placeholder=" city Address "
                         />
-                        <button className="flex-1 text-white">Search</button>
+                        <button className="flex-1 text-white px-2">Search</button>
                     </div>
                 </div>
-                <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 h-[500px] border-b-l-30">
+                <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 rounded-bl-[50px] h-[500px] border-b-l-30 shadow-5xl">
                     <img
                         className="object-cover object-center  h-full rounded-bl-[50px]"
                         alt="hero"

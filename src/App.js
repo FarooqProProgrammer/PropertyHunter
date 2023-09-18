@@ -11,6 +11,8 @@ import Faq from './components/Faq'
 import Contact from './components/Contact'
 import ScrollToTop from 'react-scroll-to-top'
 import Reviews from './components/Reviews'
+import TopGallery from './components/TopGallery'
+import 'react-multi-carousel/lib/styles.css';
 
 export default function App() {
   return (
@@ -19,6 +21,7 @@ export default function App() {
       <Hero />
       <Partners />
       <Properties />
+      <TopGallery />
       <OurTeam />
       <FeaturedSection />
       <Reviews />
