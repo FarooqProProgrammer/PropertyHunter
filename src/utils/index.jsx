@@ -1,0 +1,1 @@
+export const TitleFont = 'text-3xl'
